@@ -8,6 +8,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule} from '@angular/material/button';
 import { HomeComponent } from './home/home.component';
 
+import {MatIconModule} from '@angular/material/icon';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
+import { MatToolbarModule } from '@angular/material';
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +22,10 @@ import { HomeComponent } from './home/home.component';
   imports: [
     BrowserModule,
     MatButtonModule,
+    MatIconModule,
+    MatProgressBarModule,
     AppRoutingModule,
+    MatToolbarModule,
     BrowserAnimationsModule
   ],
   providers: [],
