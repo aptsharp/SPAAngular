@@ -13,6 +13,7 @@ import {MatProgressBarModule} from '@angular/material/progress-bar';
 import { MatToolbarModule } from '@angular/material';
 import { AlunosComponent } from './alunos/alunos.component';
 import { ProfessoresComponent } from './professores/professores.component';
+import {MatMenuModule} from '@angular/material/menu';
 
 
 
@@ -30,6 +31,7 @@ import { ProfessoresComponent } from './professores/professores.component';
     MatProgressBarModule,
     AppRoutingModule,
     MatToolbarModule,
+    MatMenuModule,
     BrowserAnimationsModule
   ],
   providers: [],
