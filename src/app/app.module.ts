@@ -11,13 +11,17 @@ import { HomeComponent } from './home/home.component';
 import {MatIconModule} from '@angular/material/icon';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import { MatToolbarModule } from '@angular/material';
+import { AlunosComponent } from './alunos/alunos.component';
+import { ProfessoresComponent } from './professores/professores.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    AlunosComponent,
+    ProfessoresComponent
   ],
   imports: [
     BrowserModule,
